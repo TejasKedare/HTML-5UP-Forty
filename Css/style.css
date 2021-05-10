@@ -1,0 +1,306 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.backgroundImg {
+  background-image: url(../Image/background.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(31, 39, 68, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/* Navbar Css start here */
+#NavbarSection {
+  font-size: 9px;
+  letter-spacing: 4px;
+  padding: 0.25rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+#NavbarSection span {
+  background-color: white;
+  padding: 4px;
+  color: black;
+}
+
+#NavbarSection span:hover {
+  background-color: aqua;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#NavbarSection .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#NavbarSection .menu:hover {
+  color: aqua;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#NavbarSection .menu i {
+  font-size: 16px;
+  padding: 0px 8px;
+}
+
+#NavbarSection .title:hover {
+  color: aqua;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* Navbar Css Ends here */
+
+/* Heading Css start here */
+#HeadingSection {
+  color: white;
+  padding: 7rem 5rem;
+}
+
+#HeadingSection h1 {
+  font-size: 52px;
+  padding-bottom: 2.2rem;
+  border-bottom: 2px solid white;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+}
+
+#HeadingSection p {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  line-height: 18px;
+  position: relative;
+  top: -24px;
+}
+
+#HeadingSection button {
+  background-color: transparent;
+  border: 3px solid white;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  height: 48px;
+  letter-spacing: 4px;
+  line-height: 21px;
+  padding: 0 14px;
+  text-align: center;
+  left: 495px;
+  position: relative;
+  top: -78px;
+}
+
+#HeadingSection button i {
+  position: relative;
+  top: 3px;
+}
+
+#HeadingSection button:hover {
+  color: aquamarine;
+  border: 3px solid aquamarine;
+}
+
+/* Heading Css Ends here */
+
+/* Image Css Starts here */
+
+#ImageSection {
+  color: white;
+}
+
+#ImageSection h1 {
+  margin: 153px 0px 0px 70px;
+  padding-bottom: 1rem;
+  font-size: 30px;
+  width: 25%;
+  border-bottom: 2px solid;
+}
+
+#ImageSection p {
+  margin: 18px 0px 0px 70px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  line-height: 18px;
+}
+#ImageSection .one .img1 {
+  background-image: url(../Image/img1.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(112, 191, 216, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+  margin-right: -4px;
+}
+#ImageSection .one .img1:hover {
+  box-shadow: none;
+  transition: 0.6s;
+}
+
+#ImageSection .one .img2 {
+  background-image: url(../Image/img2.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(145, 138, 216, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+  width: 59.95%;
+}
+
+#ImageSection .one .img2:hover {
+  box-shadow: none;
+  transition: 0.6s;
+}
+
+#ImageSection .two {
+  margin-top: -4px;
+}
+#ImageSection .two .img3 {
+  background-image: url(../Image/img3.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(216, 135, 128, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+  width: 59.96%;
+  margin-right: -4px;
+}
+
+#ImageSection .two .img3:hover {
+  box-shadow: none;
+  transition: 0.6s;
+}
+
+#ImageSection .two .img4 {
+  background-image: url(../Image/img4.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(08, 166, 129, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+}
+
+#ImageSection .two .img4:hover {
+  box-shadow: none;
+  transition: 0.6s;
+}
+
+#ImageSection .three {
+  margin-top: -4px;
+}
+
+#ImageSection .three .img5 {
+  background-image: url(../Image/img5.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(139, 160, 216, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+  margin-right: -4px;
+}
+
+#ImageSection .three .img5:hover {
+  box-shadow: none;
+  transition: 0.6s;
+}
+
+#ImageSection .three .img6 {
+  background-image: url(../Image/img6.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(125, 177, 151, 0.9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+  width: 59.95%;
+}
+
+#ImageSection .three .img6:hover {
+  box-shadow: none;
+  transition: 0.6s;
+}
+
+/* Image Css Ends here */
+
+/* Info Css Starts here */
+#InfoSection {
+  background-color: #2a2f4a;
+  color: white;
+  margin-top: -31px;
+  padding-top: 79px;
+  padding-left: 165px;
+}
+
+#InfoSection h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.65;
+  border-bottom: 2px solid;
+  width: 16%;
+  padding-bottom: 0.8rem;
+}
+
+#InfoSection p {
+  letter-spacing: 0.025em;
+  line-height: 1.65;
+  padding-bottom: 1.5rem;
+  font-weight: lighter;
+}
+
+#InfoSection button {
+  background-color: transparent;
+  border: 3px solid white;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  height: 48px;
+  letter-spacing: 4px;
+  line-height: 21px;
+  padding: 0 14px;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+#InfoSection button i {
+  position: relative;
+  top: 3px;
+}
+
+#InfoSection button:hover {
+  color: aquamarine;
+  border: 3px solid aquamarine;
+}
+/* Info Css Ends here */
